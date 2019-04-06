@@ -1,3 +1,4 @@
+package taller;
 
 public class Auto {
 	private Motor unMotor;

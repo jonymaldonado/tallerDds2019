@@ -1,3 +1,4 @@
+package taller;
 
 public class Motor {
 	private double temperatura;

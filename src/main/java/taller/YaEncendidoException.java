@@ -1,3 +1,4 @@
+package taller;
 
 public class YaEncendidoException extends RuntimeException{
 	public YaEncendidoException() {

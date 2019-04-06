@@ -1,3 +1,4 @@
+package taller;
 
 public class EstadoEncendido extends Estado{
 	
@@ -15,9 +16,23 @@ public class EstadoEncendido extends Estado{
 	};
 	
 
+	
+	@Override
 	public void encendete()  {
 
-		System.out.println( new YaEncendidoException());
+		throw new YaEncendidoException();
+	}
+
+	@Override
+	public void apagate() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void desacelera() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

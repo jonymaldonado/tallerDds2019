@@ -1,3 +1,4 @@
+package taller;
 
 public class TanqueGasolina {
 	private double gasolina;
@@ -25,6 +26,15 @@ public class TanqueGasolina {
 	public void setCapacidadTotal(double capacidadTotal) {
 		this.capacidadTotal = capacidadTotal;
 	};
+	
+	public boolean estaEnReserva() {
+		return true;
+	}
+	public boolean estaEnReserva() {
+		// TODO Auto-generated method stub
+		return false;
+	};
+	
 	
 	
 	

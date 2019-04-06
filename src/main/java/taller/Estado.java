@@ -1,3 +1,4 @@
+package taller;
 
 public abstract class Estado{
 	protected Auto unAuto;
@@ -8,10 +9,10 @@ public abstract class Estado{
 	}
 	
 
-	public void encendete() {
-	};
-	public void acelerar(int unaVelocidad) {
-	};
+	public abstract void encendete();
+	public abstract void acelerar(int unaVelocidad);
+	public abstract void apagate();
+	public abstract void desacelera();
 	
 	public boolean estaEnReserva() {
 		return false;
